@@ -1,0 +1,606 @@
+[Version]
+Product,2
+File,19
+{
+"Config" : {
+  "NetImportFormat" : "Protel"
+},
+"Board" : {
+  "Width" : 145,
+  "Height" : 34,
+  "Pattern" : "Strip"
+},
+"CelledOutlines" : [
+  { "Name" : "DIP8", "Locked" : false,
+    "Rows" : [
+    [{"Pin" : "1"},"Free","Free",{"Pin" : "8"}],
+    [{"Pin" : "2"},"Body","Body",{"Pin" : "7"}],
+    [{"Pin" : "3"},"Body","Body",{"Pin" : "6"}],
+    [{"Pin" : "4"},"Body","Body",{"Pin" : "5"}]
+    ]
+  },
+  { "Name" : "SIP2", "Locked" : false,
+    "Rows" : [
+    [{"Pin" : "1"}],
+    [{"Pin" : "2"}]
+    ]
+  },
+  { "Name" : "SIP10", "Locked" : false,
+    "Rows" : [
+    [{"Pin" : "1"}],
+    [{"Pin" : "2"}],
+    [{"Pin" : "3"}],
+    [{"Pin" : "4"}],
+    [{"Pin" : "5"}],
+    [{"Pin" : "6"}],
+    [{"Pin" : "7"}],
+    [{"Pin" : "8"}],
+    [{"Pin" : "9"}],
+    [{"Pin" : "10"}]
+    ]
+  },
+  { "Name" : "SIP1", "Locked" : false,
+    "Rows" : [
+    [{"Pin" : "1"}]
+    ]
+  }
+],
+"LeadedOutlines" : [
+  { "Name" : "AX3_1", "Locked" : false,
+    "BodyLength" : 3, "BodyWidth" : 1,
+    "Pin0Name" : "1", "Pin1Name" : "2", "ShowReference" : true
+  },
+  { "Name" : "AX2_1N", "Locked" : false,
+    "BodyLength" : 2, "BodyWidth" : 1,
+    "Pin0Name" : "1", "Pin1Name" : "2", "ShowReference" : false
+  },
+  { "Name" : "AX3_1N", "Locked" : false,
+    "BodyLength" : 3, "BodyWidth" : 1,
+    "Pin0Name" : "1", "Pin1Name" : "2", "ShowReference" : false
+  },
+  { "Name" : "AX2_1", "Locked" : false,
+    "BodyLength" : 2, "BodyWidth" : 1,
+    "Pin0Name" : "1", "Pin1Name" : "2", "ShowReference" : true
+  }
+],
+"RadialOutlines" : [
+  { "Name" : "RA1_3", "Locked" : false,
+    "LeadSpacing" : 1, "Diameter" : 3,
+    "Pin0Name" : "1", "Pin1Name" : "2"
+  }
+],
+"CustomOutlines" : [
+  { "Name" : "TRIM6", "Locked" : false,
+    "Pins" : [
+    { "Name" : "1", "X5" : 7, "Y5" : 7 },
+    { "Name" : "3", "X5" : 7, "Y5" : 17 },
+    { "Name" : "2", "X5" : 12, "Y5" : 12 }
+    ],
+    "Lines" : [
+    { "X5" : 3, "Y5" : 3, "DX5" : 13, "DY5" : 0},
+    { "X5" : 3, "Y5" : 3, "DX5" : 0, "DY5" : 18},
+    { "X5" : 16, "Y5" : 21, "DX5" : -13, "DY5" : 0},
+    { "X5" : 16, "Y5" : 21, "DX5" : 0, "DY5" : -18}
+    ]
+  },
+  { "Name" : "LED", "Locked" : false,
+    "Pins" : [
+    { "Name" : "1", "X5" : 7, "Y5" : 2 },
+    { "Name" : "2", "X5" : 7, "Y5" : 7 }
+    ],
+    "Lines" : [
+    { "X5" : 4, "Y5" : 0, "DX5" : 6, "DY5" : 0},
+    { "X5" : 11, "Y5" : 1, "DX5" : 1, "DY5" : 2},
+    { "X5" : 6, "Y5" : 9, "DX5" : -2, "DY5" : -1},
+    { "X5" : 2, "Y5" : 3, "DX5" : 1, "DY5" : -2},
+    { "X5" : 2, "Y5" : 5, "DX5" : 1, "DY5" : 2},
+    { "X5" : 3, "Y5" : 7, "DX5" : 1, "DY5" : 1},
+    { "X5" : 11, "Y5" : 7, "DX5" : 1, "DY5" : -2},
+    { "X5" : 12, "Y5" : 5, "DX5" : 0, "DY5" : -2},
+    { "X5" : 10, "Y5" : 0, "DX5" : 1, "DY5" : 1},
+    { "X5" : 4, "Y5" : 0, "DX5" : -1, "DY5" : 1},
+    { "X5" : 10, "Y5" : 8, "DX5" : 1, "DY5" : -1},
+    { "X5" : 2, "Y5" : 3, "DX5" : 0, "DY5" : 2},
+    { "X5" : 8, "Y5" : 9, "DX5" : 2, "DY5" : -1},
+    { "X5" : 6, "Y5" : 9, "DX5" : 2, "DY5" : 0}
+    ]
+  },
+  { "Name" : "TO92", "Locked" : false,
+    "Pins" : [
+    { "Name" : "1", "X5" : 2, "Y5" : 12 },
+    { "Name" : "2", "X5" : 7, "Y5" : 7 },
+    { "Name" : "3", "X5" : 2, "Y5" : 2 }
+    ],
+    "Lines" : [
+    { "X5" : 0, "Y5" : 0, "DX5" : 5, "DY5" : 0},
+    { "X5" : 9, "Y5" : 4, "DX5" : 0, "DY5" : 6},
+    { "X5" : 5, "Y5" : 14, "DX5" : -5, "DY5" : 0},
+    { "X5" : 0, "Y5" : 14, "DX5" : 0, "DY5" : -14},
+    { "X5" : 5, "Y5" : 0, "DX5" : 4, "DY5" : 4},
+    { "X5" : 5, "Y5" : 14, "DX5" : 4, "DY5" : -4}
+    ]
+  }
+],
+"SmdOutlines" : [
+],
+"Components" : [
+  { "Designator" : "R101", "Value" : "10K", "Outline" : "AX3_1",
+  "X1000" : 10000, "Y1000" : 16000, "EndDeltaX" : 0, "EndDeltaY" : 8,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "R102", "Value" : "2.2K", "Outline" : "AX3_1",
+  "X1000" : 18000, "Y1000" : 21000, "EndDeltaX" : 0, "EndDeltaY" : -11,
+  "Text" : { "X" : 0, "Y" : 2, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "C103", "Value" : ".001uF", "Outline" : "AX2_1N",
+  "X1000" : 4000, "Y1000" : 14000, "EndDeltaX" : 0, "EndDeltaY" : 8,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "C107", "Value" : ".01uF", "Outline" : "AX2_1N",
+  "X1000" : 27000, "Y1000" : 25000, "EndDeltaX" : 0, "EndDeltaY" : -5,
+  "Text" : { "X" : 0, "Y" : 1, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "C103A", "Value" : ".015uF", "Outline" : "RA1_3",
+  "X1000" : 25000, "Y1000" : 12000, "EndDeltaX" : 0, "EndDeltaY" : -3,
+  "Text" : { "X" : 0, "Y" : 1, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "R104", "Value" : "160K", "Outline" : "AX3_1",
+  "X1000" : 29000, "Y1000" : 20000, "EndDeltaX" : 0, "EndDeltaY" : -4,
+  "Text" : { "X" : 0, "Y" : 2, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "R105", "Value" : "56K", "Outline" : "AX3_1",
+  "X1000" : 30000, "Y1000" : 16000, "EndDeltaX" : 0, "EndDeltaY" : -6,
+  "Text" : { "X" : 0, "Y" : 2, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "R106", "Value" : "FET BIAS", "Outline" : "AX3_1",
+  "X1000" : 34000, "Y1000" : 11000, "EndDeltaX" : 0, "EndDeltaY" : -4,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "R107", "Value" : "FET BIAS", "Outline" : "AX3_1",
+  "X1000" : 30000, "Y1000" : 7000, "EndDeltaX" : 0, "EndDeltaY" : -5,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "R111", "Value" : "18K", "Outline" : "AX3_1",
+  "X1000" : 25000, "Y1000" : 25000, "EndDeltaX" : 0, "EndDeltaY" : -5,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "R112", "Value" : "3.3K", "Outline" : "AX3_1",
+  "X1000" : 7000, "Y1000" : 30000, "EndDeltaX" : 0, "EndDeltaY" : -5,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "R112A", "Value" : "560", "Outline" : "AX3_1",
+  "X1000" : 33000, "Y1000" : 25000, "EndDeltaX" : 0, "EndDeltaY" : 5,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "R113", "Value" : "33K", "Outline" : "AX3_1",
+  "X1000" : 5000, "Y1000" : 25000, "EndDeltaX" : 0, "EndDeltaY" : -9,
+  "Text" : { "X" : 0, "Y" : 2, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "R114", "Value" : "1M", "Outline" : "AX3_1",
+  "X1000" : 9000, "Y1000" : 11000, "EndDeltaX" : 0, "EndDeltaY" : -4,
+  "Text" : { "X" : 0, "Y" : 2, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "R168", "Value" : "22K", "Outline" : "AX3_1",
+  "X1000" : 9000, "Y1000" : 5000, "EndDeltaX" : 0, "EndDeltaY" : -4,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "R169", "Value" : "390", "Outline" : "AX3_1",
+  "X1000" : 30000, "Y1000" : 20000, "EndDeltaX" : 0, "EndDeltaY" : 5,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "R173", "Value" : "1K", "Outline" : "AX3_1",
+  "X1000" : 10000, "Y1000" : 7000, "EndDeltaX" : 0, "EndDeltaY" : -6,
+  "Text" : { "X" : 0, "Y" : 3, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "R174", "Value" : "3.3K", "Outline" : "AX3_1",
+  "X1000" : 28000, "Y1000" : 19000, "EndDeltaX" : 0, "EndDeltaY" : -9,
+  "Text" : { "X" : 0, "Y" : 7, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "R175", "Value" : "12K", "Outline" : "AX3_1",
+  "X1000" : 19000, "Y1000" : 15000, "EndDeltaX" : 0, "EndDeltaY" : -5,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "R176", "Value" : "33K", "Outline" : "AX3_1",
+  "X1000" : 26000, "Y1000" : 20000, "EndDeltaX" : 0, "EndDeltaY" : 7,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "R177", "Value" : "1K", "Outline" : "AX3_1N",
+  "X1000" : 26000, "Y1000" : 9000, "EndDeltaX" : 0, "EndDeltaY" : -5,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "VR101", "Value" : "10K", "Outline" : "TRIM6",
+  "X1000" : 12000, "Y1000" : 20000, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "C104", "Value" : "10uF", "Outline" : "RA1_3",
+  "X1000" : 33000, "Y1000" : 16000, "EndDeltaX" : 0, "EndDeltaY" : -5,
+  "Text" : { "X" : 0, "Y" : 2, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "C106", "Value" : ".082uF", "Outline" : "RA1_3",
+  "X1000" : 20000, "Y1000" : 2000, "EndDeltaX" : 0, "EndDeltaY" : 8,
+  "Text" : { "X" : 2, "Y" : 3, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "C108", "Value" : ".015uF", "Outline" : "AX2_1N",
+  "X1000" : 23000, "Y1000" : 14000, "EndDeltaX" : 0, "EndDeltaY" : -4,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "C108A", "Value" : ".082uF", "Outline" : "AX2_1N",
+  "X1000" : 5000, "Y1000" : 13000, "EndDeltaX" : 0, "EndDeltaY" : -4,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "C109", "Value" : "4700pF", "Outline" : "AX2_1N",
+  "X1000" : 7000, "Y1000" : 16000, "EndDeltaX" : 0, "EndDeltaY" : -5,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "C133", "Value" : ".047uF", "Outline" : "AX2_1N",
+  "X1000" : 19000, "Y1000" : 23000, "EndDeltaX" : 0, "EndDeltaY" : 5,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "C134", "Value" : ".005uF", "Outline" : "AX2_1N",
+  "X1000" : 7000, "Y1000" : 5000, "EndDeltaX" : 0, "EndDeltaY" : 4,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "C136", "Value" : "220pF", "Outline" : "AX2_1N",
+  "X1000" : 8000, "Y1000" : 11000, "EndDeltaX" : 0, "EndDeltaY" : -4,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "C137", "Value" : ".015uF", "Outline" : "AX2_1N",
+  "X1000" : 27000, "Y1000" : 18000, "EndDeltaX" : 0, "EndDeltaY" : -9,
+  "Text" : { "X" : 0, "Y" : 2, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "D101", "Value" : "IN914", "Outline" : "AX2_1",
+  "X1000" : 28000, "Y1000" : 2000, "EndDeltaX" : 0, "EndDeltaY" : 4,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "D117", "Value" : "IN914", "Outline" : "AX2_1",
+  "X1000" : 22000, "Y1000" : 2000, "EndDeltaX" : 0, "EndDeltaY" : 13,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "D113", "Value" : "IN914", "Outline" : "AX2_1",
+  "X1000" : 34000, "Y1000" : 29000, "EndDeltaX" : 0, "EndDeltaY" : -4,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "D114", "Value" : "RED LED", "Outline" : "LED",
+  "X1000" : 29000, "Y1000" : 28000, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "Text" : { "X" : 1, "Y" : -1, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "D115", "Value" : "RED LED", "Outline" : "LED",
+  "X1000" : 22000, "Y1000" : 28000, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "Text" : { "X" : 1, "Y" : -1, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "D116", "Value" : "RED LED", "Outline" : "LED",
+  "X1000" : 27000, "Y1000" : 29000, "EndDeltaX" : 0, "EndDeltaY" : -1,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "Q101", "Value" : "2N4339", "Outline" : "TO92",
+  "X1000" : 36000, "Y1000" : 11000, "EndDeltaX" : 0, "EndDeltaY" : -1,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "IC102", "Value" : "TL072", "Outline" : "DIP8",
+  "X1000" : 12000, "Y1000" : 7000, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "Text" : { "X" : 1, "Y" : -1, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "CN102", "Value" : "PHONEJ", "Outline" : "SIP2",
+  "X1000" : 1000, "Y1000" : 32000, "EndDeltaX" : 0, "EndDeltaY" : -1,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "IC101A", "Value" : "TL072", "Outline" : "DIP8",
+  "X1000" : 12000, "Y1000" : 14000, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "Text" : { "X" : 1, "Y" : -1, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "SW101", "Value" : "4-way Slider Switch", "Outline" : "SIP10",
+  "X1000" : 23000, "Y1000" : 17000, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "Text" : { "X" : 0, "Y" : 0, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "J1", "Value" : "EQ1", "Outline" : "SIP1",
+  "X1000" : 21000, "Y1000" : 24000, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "Text" : { "X" : 0, "Y" : -1, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "J2", "Value" : "EQ2", "Outline" : "SIP1",
+  "X1000" : 21000, "Y1000" : 26000, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "Text" : { "X" : 0, "Y" : -1, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "J3", "Value" : "ETTD OUT", "Outline" : "SIP1",
+  "X1000" : 23000, "Y1000" : 8000, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "Text" : { "X" : 0, "Y" : -1, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "J4", "Value" : "ETTD -", "Outline" : "SIP1",
+  "X1000" : 19000, "Y1000" : 9000, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "Text" : { "X" : 0, "Y" : -1, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  }
+],
+"Links" : [
+  { "X" : 11, "Y" : 10, "EndDeltaX" : 0, "EndDeltaY" : 7, "Group" : 0 },
+  { "X" : 11, "Y" : 6, "EndDeltaX" : 0, "EndDeltaY" : 3, "Group" : 0 },
+  { "X" : 16, "Y" : 6, "EndDeltaX" : 0, "EndDeltaY" : 4, "Group" : 0 },
+  { "X" : 9, "Y" : 14, "EndDeltaX" : 0, "EndDeltaY" : 1, "Group" : 0 },
+  { "X" : 17, "Y" : 7, "EndDeltaX" : 0, "EndDeltaY" : 7, "Group" : 0 },
+  { "X" : 16, "Y" : 17, "EndDeltaX" : 0, "EndDeltaY" : 5, "Group" : 0 },
+  { "X" : 22, "Y" : 19, "EndDeltaX" : 0, "EndDeltaY" : 2, "Group" : 0 },
+  { "X" : 22, "Y" : 22, "EndDeltaX" : 0, "EndDeltaY" : 2, "Group" : 0 },
+  { "X" : 21, "Y" : 4, "EndDeltaX" : 0, "EndDeltaY" : 6, "Group" : 0 },
+  { "X" : 29, "Y" : 4, "EndDeltaX" : 0, "EndDeltaY" : 6, "Group" : 0 },
+  { "X" : 9, "Y" : 17, "EndDeltaX" : 0, "EndDeltaY" : 10, "Group" : 0 },
+  { "X" : 18, "Y" : 0, "EndDeltaX" : 0, "EndDeltaY" : 7, "Group" : 0 },
+  { "X" : 17, "Y" : 15, "EndDeltaX" : 0, "EndDeltaY" : 5, "Group" : 0 },
+  { "X" : 10, "Y" : 12, "EndDeltaX" : 0, "EndDeltaY" : 2, "Group" : 0 },
+  { "X" : 10, "Y" : 8, "EndDeltaX" : 0, "EndDeltaY" : 3, "Group" : 0 },
+  { "X" : 6, "Y" : 5, "EndDeltaX" : 0, "EndDeltaY" : 23, "Group" : 0 },
+  { "X" : 31, "Y" : 7, "EndDeltaX" : 0, "EndDeltaY" : 2, "Group" : 0 },
+  { "X" : 20, "Y" : 14, "EndDeltaX" : 0, "EndDeltaY" : 11, "Group" : 0 },
+  { "X" : 8, "Y" : 13, "EndDeltaX" : 0, "EndDeltaY" : 17, "Group" : 0 },
+  { "X" : 31, "Y" : 10, "EndDeltaX" : 0, "EndDeltaY" : 18, "Group" : 0 },
+  { "X" : 32, "Y" : 6, "EndDeltaX" : 0, "EndDeltaY" : 19, "Group" : 0 },
+  { "X" : 3, "Y" : 1, "EndDeltaX" : 0, "EndDeltaY" : 28, "Group" : 0 },
+  { "X" : 2, "Y" : 9, "EndDeltaX" : 0, "EndDeltaY" : 22, "Group" : 0 },
+  { "X" : 11, "Y" : 24, "EndDeltaX" : 0, "EndDeltaY" : 8, "Group" : 0 }
+],
+"Breaks" : [
+  { "X" : 14, "Y" : 7, "Shift" : "none", "Group" : 0 },
+  { "X" : 14, "Y" : 8, "Shift" : "none", "Group" : 0 },
+  { "X" : 14, "Y" : 9, "Shift" : "none", "Group" : 0 },
+  { "X" : 14, "Y" : 10, "Shift" : "none", "Group" : 0 },
+  { "X" : 14, "Y" : 14, "Shift" : "none", "Group" : 0 },
+  { "X" : 14, "Y" : 15, "Shift" : "none", "Group" : 0 },
+  { "X" : 14, "Y" : 16, "Shift" : "none", "Group" : 0 },
+  { "X" : 14, "Y" : 17, "Shift" : "none", "Group" : 0 },
+  { "X" : 23, "Y" : 15, "Shift" : "none", "Group" : 0 },
+  { "X" : 24, "Y" : 14, "Shift" : "none", "Group" : 0 },
+  { "X" : 23, "Y" : 13, "Shift" : "none", "Group" : 0 },
+  { "X" : 24, "Y" : 11, "Shift" : "none", "Group" : 0 },
+  { "X" : 24, "Y" : 10, "Shift" : "none", "Group" : 0 },
+  { "X" : 24, "Y" : 8, "Shift" : "none", "Group" : 0 },
+  { "X" : 23, "Y" : 7, "Shift" : "none", "Group" : 0 },
+  { "X" : 24, "Y" : 6, "Shift" : "none", "Group" : 0 },
+  { "X" : 23, "Y" : 5, "Shift" : "none", "Group" : 0 },
+  { "X" : 24, "Y" : 3, "Shift" : "none", "Group" : 0 },
+  { "X" : 23, "Y" : 1, "Shift" : "none", "Group" : 0 },
+  { "X" : 23, "Y" : 9, "Shift" : "none", "Group" : 0 },
+  { "X" : 21, "Y" : 21, "Shift" : "none", "Group" : 0 },
+  { "X" : 21, "Y" : 22, "Shift" : "none", "Group" : 0 },
+  { "X" : 18, "Y" : 23, "Shift" : "none", "Group" : 0 },
+  { "X" : 17, "Y" : 24, "Shift" : "right", "Group" : 0 },
+  { "X" : 21, "Y" : 25, "Shift" : "none", "Group" : 0 },
+  { "X" : 17, "Y" : 26, "Shift" : "none", "Group" : 0 },
+  { "X" : 21, "Y" : 19, "Shift" : "none", "Group" : 0 },
+  { "X" : 28, "Y" : 25, "Shift" : "none", "Group" : 0 },
+  { "X" : 28, "Y" : 9, "Shift" : "none", "Group" : 0 },
+  { "X" : 8, "Y" : 16, "Shift" : "none", "Group" : 0 },
+  { "X" : 19, "Y" : 14, "Shift" : "none", "Group" : 0 },
+  { "X" : 21, "Y" : 28, "Shift" : "none", "Group" : 0 },
+  { "X" : 27, "Y" : 29, "Shift" : "none", "Group" : 0 }
+],
+"Wires" : [
+    { "Value" : "V+", "X" : 1, "Y" : 0, "Group" : 0 },
+    { "Value" : "V-", "X" : 1, "Y" : 27, "Group" : 0 },
+    { "Value" : "GND", "X" : 1, "Y" : 4, "Group" : 0 }
+],
+"Text" : [
+],
+"Nets" : [
+    { "Node" : "GND", "Components" : [
+    { "Name" : "C106", "Pins" : ["2"] },
+    { "Name" : "C108", "Pins" : ["2"] },
+    { "Name" : "C108A", "Pins" : ["2"] },
+    { "Name" : "C134", "Pins" : ["2"] },
+    { "Name" : "CN102", "Pins" : ["2"] },
+    { "Name" : "D114", "Pins" : ["1"] },
+    { "Name" : "D115", "Pins" : ["1"] },
+    { "Name" : "D116", "Pins" : ["2"] },
+    { "Name" : "IC102", "Pins" : ["3", "5"] },
+    { "Name" : "Q101", "Pins" : ["2"] },
+    { "Name" : "R102", "Pins" : ["2"] },
+    { "Name" : "R105", "Pins" : ["2"] },
+    { "Name" : "R174", "Pins" : ["2"] },
+    { "Name" : "R175", "Pins" : ["2"] },
+    { "Name" : "R177", "Pins" : ["2"] }
+    ] },
+    { "Node" : "N000000", "Components" : [
+    { "Name" : "C103", "Pins" : ["2"] },
+    { "Name" : "IC101A", "Pins" : ["5"] },
+    { "Name" : "SW101", "Pins" : ["1"] },
+    { "Name" : "VR101", "Pins" : ["2"] }
+    ] },
+    { "Node" : "N000001", "Components" : [
+    { "Name" : "C103A", "Pins" : ["2"] },
+    { "Name" : "C137", "Pins" : ["2"] },
+    { "Name" : "R177", "Pins" : ["1"] }
+    ] },
+    { "Node" : "N000002", "Components" : [
+    { "Name" : "Q101", "Pins" : ["1"] },
+    { "Name" : "R106", "Pins" : ["2"] },
+    { "Name" : "R107", "Pins" : ["1"] }
+    ] },
+    { "Node" : "N000003", "Components" : [
+    { "Name" : "C106", "Pins" : ["1"] },
+    { "Name" : "D101", "Pins" : ["1"] },
+    { "Name" : "D117", "Pins" : ["1"] },
+    { "Name" : "R107", "Pins" : ["2"] }
+    ] },
+    { "Node" : "N000004", "Components" : [
+    { "Name" : "C108A", "Pins" : ["1"] },
+    { "Name" : "R112", "Pins" : ["1"] },
+    { "Name" : "R112A", "Pins" : ["2"] }
+    ] },
+    { "Node" : "N000005", "Components" : [
+    { "Name" : "C109", "Pins" : ["1"] },
+    { "Name" : "R113", "Pins" : ["2"] }
+    ] },
+    { "Node" : "N000006", "Components" : [
+    { "Name" : "C136", "Pins" : ["2"] },
+    { "Name" : "IC102", "Pins" : ["1"] },
+    { "Name" : "R114", "Pins" : ["2"] },
+    { "Name" : "R173", "Pins" : ["1"] }
+    ] },
+    { "Node" : "N000007", "Components" : [
+    { "Name" : "D115", "Pins" : ["2"] },
+    { "Name" : "D116", "Pins" : ["1"] },
+    { "Name" : "R168", "Pins" : ["2"] },
+    { "Name" : "R173", "Pins" : ["2"] }
+    ] },
+    { "Node" : "N000008", "Components" : [
+    { "Name" : "C107", "Pins" : ["2"] },
+    { "Name" : "D117", "Pins" : ["2"] },
+    { "Name" : "IC101A", "Pins" : ["7"] },
+    { "Name" : "R104", "Pins" : ["1"] },
+    { "Name" : "R111", "Pins" : ["2"] },
+    { "Name" : "R169", "Pins" : ["1"] },
+    { "Name" : "R175", "Pins" : ["1"] },
+    { "Name" : "R176", "Pins" : ["1"] },
+    { "Name" : "SW101", "Pins" : ["4"] }
+    ] },
+    { "Node" : "N000009", "Components" : [
+    { "Name" : "R102", "Pins" : ["1"] },
+    { "Name" : "VR101", "Pins" : ["1"] }
+    ] },
+    { "Node" : "N000010", "Components" : [
+    { "Name" : "C104", "Pins" : ["2"] },
+    { "Name" : "Q101", "Pins" : ["3"] },
+    { "Name" : "R106", "Pins" : ["1"] }
+    ] },
+    { "Node" : "N000011", "Components" : [
+    { "Name" : "C108", "Pins" : ["1"] },
+    { "Name" : "R112", "Pins" : ["2"] },
+    { "Name" : "R113", "Pins" : ["1"] }
+    ] },
+    { "Node" : "N000012", "Components" : [
+    { "Name" : "C133", "Pins" : ["2"] },
+    { "Name" : "C134", "Pins" : ["1"] },
+    { "Name" : "R168", "Pins" : ["1"] }
+    ] },
+    { "Node" : "N000013", "Components" : [
+    { "Name" : "C137", "Pins" : ["1"] },
+    { "Name" : "SW101", "Pins" : ["2"] }
+    ] },
+    { "Node" : "N000014", "Components" : [
+    { "Name" : "D101", "Pins" : ["2"] },
+    { "Name" : "D113", "Pins" : ["2"] },
+    { "Name" : "R112A", "Pins" : ["1"] },
+    { "Name" : "R169", "Pins" : ["2"] }
+    ] },
+    { "Node" : "N000015", "Components" : [
+    { "Name" : "D113", "Pins" : ["1"] },
+    { "Name" : "D114", "Pins" : ["2"] }
+    ] },
+    { "Node" : "N000016", "Components" : [
+    { "Name" : "C109", "Pins" : ["2"] },
+    { "Name" : "C136", "Pins" : ["1"] },
+    { "Name" : "IC102", "Pins" : ["2"] },
+    { "Name" : "R114", "Pins" : ["1"] }
+    ] },
+    { "Node" : "N000017", "Components" : [
+    { "Name" : "IC102", "Pins" : ["7"] },
+    { "Name" : "J3", "Pins" : ["1"] }
+    ] },
+    { "Node" : "N000018", "Components" : [
+    { "Name" : "IC102", "Pins" : ["6"] },
+    { "Name" : "J4", "Pins" : ["1"] }
+    ] },
+    { "Node" : "N000019", "Components" : [
+    { "Name" : "C103", "Pins" : ["1"] },
+    { "Name" : "C103A", "Pins" : ["1"] },
+    { "Name" : "IC101A", "Pins" : ["1", "2"] }
+    ] },
+    { "Node" : "N000020", "Components" : [
+    { "Name" : "IC101A", "Pins" : ["3"] },
+    { "Name" : "R101", "Pins" : ["1"] }
+    ] },
+    { "Node" : "N000021", "Components" : [
+    { "Name" : "C104", "Pins" : ["1"] },
+    { "Name" : "IC101A", "Pins" : ["6"] },
+    { "Name" : "R104", "Pins" : ["2"] },
+    { "Name" : "R105", "Pins" : ["1"] }
+    ] },
+    { "Node" : "N000022", "Components" : [
+    { "Name" : "C133", "Pins" : ["1"] },
+    { "Name" : "SW101", "Pins" : ["7"] }
+    ] },
+    { "Node" : "N000023", "Components" : [
+    { "Name" : "J1", "Pins" : ["1"] },
+    { "Name" : "SW101", "Pins" : ["6", "8"] }
+    ] },
+    { "Node" : "N000024", "Components" : [
+    { "Name" : "C107", "Pins" : ["1"] },
+    { "Name" : "R111", "Pins" : ["1"] },
+    { "Name" : "SW101", "Pins" : ["9"] }
+    ] },
+    { "Node" : "N000025", "Components" : [
+    { "Name" : "J2", "Pins" : ["1"] },
+    { "Name" : "SW101", "Pins" : ["10"] }
+    ] },
+    { "Node" : "N000026", "Components" : [
+    { "Name" : "R174", "Pins" : ["1"] },
+    { "Name" : "SW101", "Pins" : ["3", "5"] }
+    ] },
+    { "Node" : "N000027", "Components" : [
+    { "Name" : "CN102", "Pins" : ["1"] },
+    { "Name" : "R101", "Pins" : ["2"] }
+    ] },
+    { "Node" : "V-", "Components" : [
+    { "Name" : "IC101A", "Pins" : ["4"] },
+    { "Name" : "IC102", "Pins" : ["4"] },
+    { "Name" : "R176", "Pins" : ["2"] }
+    ] },
+    { "Node" : "V+", "Components" : [
+    { "Name" : "IC101A", "Pins" : ["8"] },
+    { "Name" : "IC102", "Pins" : ["8"] }
+    ] }
+],
+"NetColors" : [
+    { "Node" : "V+" },
+    { "Node" : "" },
+    { "Node" : "GND" },
+    { "Node" : "" },
+    { "Node" : "V-" },
+    { "Node" : "" }
+],
+"Notes" : {
+  "Lines" : ""
+}
+}
