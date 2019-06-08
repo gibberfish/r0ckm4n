@@ -776,6 +776,38 @@ download the executable.-->
 				<PIN pos='50.00000,22.00000' which='0' elec='0' direction='3' part='0' number='14' show='3' length='30' number_pos='0' centre_name='0'>Vdd</PIN>
 			</TinyCAD>
 		</SYMBOLDEF>
+		<SYMBOLDEF id='18'>
+			<NAME type='0'>Conn_1</NAME>
+			<REF type='0'>J?</REF>
+			<DESCRIPTION>Connector 1 Pin</DESCRIPTION>
+			<PPP>1</PPP>
+			<FIELD>
+				<NAME>$$SPICE_PROLOG_PRIORITY</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>$$SPICE_EPILOG_PRIORITY</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Package</NAME>
+				<DEFAULT>SIP1</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='28.00000,24.00000'/>
+			<TinyCAD>
+				<RECTANGLE a='24.00000,20.00000' b='28.00000,24.00000' style='2' fill='0'/>
+				<PIN pos='20.00000,22.00000' which='0' elec='0' direction='3' part='0' number='1' show='3' length='30' number_pos='0' centre_name='0'></PIN>
+			</TinyCAD>
+		</SYMBOLDEF>
 		<OPTIONS>
 			<GRID>0</GRID>
 			<UNITS>0</UNITS>
@@ -792,7 +824,6 @@ download the executable.-->
 			<COLOR_NOTETEXT_LINE>FF0000</COLOR_NOTETEXT_LINE>
 			<COLOR_NOTETEXT_TEXT>FF0000</COLOR_NOTETEXT_TEXT>
 		</OPTIONS>
-		<WIRE a='348.00000,74.00000' b='362.00000,74.00000'/>
 		<LABEL pos='362.00000,74.00000' direction='3' font='4' color='208000' style='0'>CHORUS SIG</LABEL>
 		<SYMBOL id='1' pos='62.00000,98.00000' part='0' rotate='2' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='0' description='Ref' value='R145' show='1' pos='-10.00000,2.00000'/>
@@ -1299,5 +1330,21 @@ download the executable.-->
 		<POWER pos='78.00000,230.00000' which='3' direction='1'>V-</POWER>
 		<WIRE a='78.00000,230.00000' b='78.00000,220.00000'/>
 		<WIRE a='78.00000,220.00000' b='90.00000,220.00000'/>
+		<SYMBOL id='18' pos='22.00000,86.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='0' description='Ref' value='J1' show='1' pos='1.00000,0.40000'/>
+			<FIELD type='0' description='Name' value='MAIN SIG' show='1' pos='1.00000,-2.00000'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Package' value='SIP1' show='0' pos='1.00000,2.80000'/>
+		</SYMBOL>
+		<WIRE a='14.00000,84.00000' b='14.00000,96.00000'/>
+		<SYMBOL id='18' pos='390.00000,76.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='0' description='Ref' value='J2' show='1' pos='1.00000,0.40000'/>
+			<FIELD type='0' description='Name' value='CHORUS SIG' show='1' pos='1.00000,-2.00000'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Package' value='SIP1' show='0' pos='1.00000,2.80000'/>
+		</SYMBOL>
+		<WIRE a='348.00000,74.00000' b='382.00000,74.00000'/>
 	</TinyCAD>
 </TinyCADSheets>

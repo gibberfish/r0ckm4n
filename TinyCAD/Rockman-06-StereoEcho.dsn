@@ -810,6 +810,38 @@ download the executable.-->
 				</POLYGON>
 			</TinyCAD>
 		</SYMBOLDEF>
+		<SYMBOLDEF id='16'>
+			<NAME type='0'>Conn_1</NAME>
+			<REF type='0'>J?</REF>
+			<DESCRIPTION>Connector 1 Pin</DESCRIPTION>
+			<PPP>1</PPP>
+			<FIELD>
+				<NAME>$$SPICE_PROLOG_PRIORITY</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>$$SPICE_EPILOG_PRIORITY</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Package</NAME>
+				<DEFAULT>SIP1</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='28.00000,24.00000'/>
+			<TinyCAD>
+				<RECTANGLE a='24.00000,20.00000' b='28.00000,24.00000' style='2' fill='0'/>
+				<PIN pos='20.00000,22.00000' which='0' elec='0' direction='3' part='0' number='1' show='3' length='30' number_pos='0' centre_name='0'></PIN>
+			</TinyCAD>
+		</SYMBOLDEF>
 		<OPTIONS>
 			<GRID>0</GRID>
 			<UNITS>0</UNITS>
@@ -843,7 +875,7 @@ download the executable.-->
 		<WIRE a='14.00000,34.00000' b='28.00000,34.00000'/>
 		<LABEL pos='14.00000,34.00000' direction='3' font='3' color='208000' style='0'>ECHO IN</LABEL>
 		<LABEL pos='208.00000,278.00000' direction='3' font='3' color='208000' style='0'>ECHO OUT L</LABEL>
-		<LABEL pos='208.00000,268.00000' direction='3' font='3' color='208000' style='0'>ECHO OUT R</LABEL>
+		<LABEL pos='178.00000,272.00000' direction='3' font='3' color='208000' style='0'>ECHO OUT R</LABEL>
 		<SYMBOL id='7' pos='50.00000,60.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='0' description='Ref' value='R218A' show='1' pos='1.00000,-5.60000'/>
 			<FIELD type='0' description='Name' value='47k' show='1' pos='1.00000,-8.00000'/>
@@ -1782,7 +1814,29 @@ download the executable.-->
 		<WIRE a='198.00000,278.00000' b='222.00000,278.00000'/>
 		<JUNCTION pos='182.00000,272.00000'/>
 		<WIRE a='182.00000,272.00000' b='192.00000,272.00000'/>
-		<WIRE a='192.00000,272.00000' b='192.00000,268.00000'/>
-		<WIRE a='192.00000,268.00000' b='222.00000,268.00000'/>
+		<SYMBOL id='16' pos='22.00000,24.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='0' description='Ref' value='J1' show='1' pos='1.00000,0.40000'/>
+			<FIELD type='0' description='Name' value='ECHO IN' show='1' pos='1.00000,-2.00000'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Package' value='SIP1' show='0' pos='1.00000,2.80000'/>
+		</SYMBOL>
+		<WIRE a='14.00000,22.00000' b='14.00000,34.00000'/>
+		<SYMBOL id='16' pos='200.00000,266.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='0' description='Ref' value='J2' show='1' pos='1.00000,0.40000'/>
+			<FIELD type='0' description='Name' value='ECHO OUT R' show='1' pos='1.00000,-2.00000'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Package' value='SIP1' show='0' pos='1.00000,2.80000'/>
+		</SYMBOL>
+		<SYMBOL id='16' pos='230.00000,290.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='0' description='Ref' value='J3' show='1' pos='1.00000,0.40000'/>
+			<FIELD type='0' description='Name' value='ECHO OUT L' show='1' pos='1.00000,-2.00000'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Package' value='SIP1' show='0' pos='1.00000,2.80000'/>
+		</SYMBOL>
+		<WIRE a='192.00000,264.00000' b='192.00000,272.00000'/>
+		<WIRE a='222.00000,278.00000' b='222.00000,288.00000'/>
 	</TinyCAD>
 </TinyCADSheets>
