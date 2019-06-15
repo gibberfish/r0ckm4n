@@ -29,7 +29,7 @@ download the executable.-->
 			<CHARSET>0</CHARSET>
 			<FACENAME>Arial</FACENAME>
 		</FONT>
-		<FONT id='4'>
+		<FONT id='3'>
 			<HEIGHT>-13</HEIGHT>
 			<WIDTH>6</WIDTH>
 			<WEIGHT>400</WEIGHT>
@@ -39,7 +39,7 @@ download the executable.-->
 			<CHARSET>0</CHARSET>
 			<FACENAME>Arial</FACENAME>
 		</FONT>
-		<FONT id='5'>
+		<FONT id='4'>
 			<HEIGHT>-11</HEIGHT>
 			<WIDTH>5</WIDTH>
 			<WEIGHT>400</WEIGHT>
@@ -966,10 +966,10 @@ download the executable.-->
 					<POINT pos='0.00000,4.00000' arc='0'/>
 					<POINT pos='6.00000,0.00000' arc='0'/>
 				</POLYGON>
-				<TEXT pos='31.00000,37.00000' direction='3' font='4' color='000000'>+</TEXT>
-				<TEXT pos='31.00000,28.00000' direction='3' font='4' color='000000'>-</TEXT>
-				<TEXT pos='48.00000,43.00000' direction='3' font='4' color='000000'>+</TEXT>
-				<TEXT pos='48.00000,34.00000' direction='3' font='4' color='000000'>-</TEXT>
+				<TEXT pos='31.00000,37.00000' direction='3' font='3' color='000000'>+</TEXT>
+				<TEXT pos='31.00000,28.00000' direction='3' font='3' color='000000'>-</TEXT>
+				<TEXT pos='48.00000,43.00000' direction='3' font='3' color='000000'>+</TEXT>
+				<TEXT pos='48.00000,34.00000' direction='3' font='3' color='000000'>-</TEXT>
 				<POLYGON pos='30.00000,28.00000' style='2' fill='0'>
 					<POINT pos='0.00000,0.00000' arc='0'/>
 					<POINT pos='2.00000,0.00000' arc='0'/>
@@ -1006,7 +1006,7 @@ download the executable.-->
 				<PIN pos='50.00000,28.00000' which='0' elec='0' direction='3' part='0' number='7' show='3' length='30' number_pos='0' centre_name='0'>output B</PIN>
 				<PIN pos='50.00000,34.00000' which='0' elec='0' direction='3' part='0' number='6' show='3' length='30' number_pos='0' centre_name='0'>invert i/p B</PIN>
 				<PIN pos='50.00000,40.00000' which='0' elec='0' direction='3' part='0' number='5' show='3' length='30' number_pos='0' centre_name='0'>non-invert i/p B</PIN>
-				<TEXT pos='36.00000,43.00000' direction='3' font='4' color='000000'>TL072</TEXT>
+				<TEXT pos='36.00000,43.00000' direction='3' font='3' color='000000'>TL072</TEXT>
 				<POLYGON pos='38.00000,18.00000' style='2' fill='2'>
 					<POINT pos='0.00000,0.00000' arc='0'/>
 					<POINT pos='2.00000,2.00000' arc='2'/>
@@ -1023,7 +1023,7 @@ download the executable.-->
 			<TinyCAD>
 				<PIN pos='24.00000,34.00000' which='0' elec='0' direction='0' part='0' number='1' show='0' length='30' number_pos='0' centre_name='0'></PIN>
 				<PIN pos='27.00000,34.00000' which='0' elec='0' direction='0' part='0' number='2' show='0' length='30' number_pos='0' centre_name='0'></PIN>
-				<TEXT pos='24.00000,33.00000' direction='0' font='5' color='000000'>tip</TEXT>
+				<TEXT pos='24.00000,33.00000' direction='0' font='4' color='000000'>tip</TEXT>
 				<POLYGON pos='27.00000,25.00000' style='2' fill='0'>
 					<POINT pos='0.00000,0.00000' arc='0'/>
 					<POINT pos='0.00000,3.00000' arc='0'/>
@@ -1084,10 +1084,10 @@ download the executable.-->
 					<POINT pos='0.00000,4.00000' arc='0'/>
 					<POINT pos='6.00000,0.00000' arc='0'/>
 				</POLYGON>
-				<TEXT pos='31.00000,37.00000' direction='3' font='4' color='000000'>+</TEXT>
-				<TEXT pos='31.00000,28.00000' direction='3' font='4' color='000000'>-</TEXT>
-				<TEXT pos='48.00000,43.00000' direction='3' font='4' color='000000'>+</TEXT>
-				<TEXT pos='48.00000,34.00000' direction='3' font='4' color='000000'>-</TEXT>
+				<TEXT pos='31.00000,37.00000' direction='3' font='3' color='000000'>+</TEXT>
+				<TEXT pos='31.00000,28.00000' direction='3' font='3' color='000000'>-</TEXT>
+				<TEXT pos='48.00000,43.00000' direction='3' font='3' color='000000'>+</TEXT>
+				<TEXT pos='48.00000,34.00000' direction='3' font='3' color='000000'>-</TEXT>
 				<POLYGON pos='30.00000,28.00000' style='2' fill='0'>
 					<POINT pos='0.00000,0.00000' arc='0'/>
 					<POINT pos='2.00000,0.00000' arc='0'/>
@@ -1124,7 +1124,7 @@ download the executable.-->
 				<PIN pos='50.00000,28.00000' which='0' elec='4' direction='3' part='0' number='7' show='3' length='30' number_pos='0' centre_name='0'>output B</PIN>
 				<PIN pos='50.00000,34.00000' which='0' elec='4' direction='3' part='0' number='6' show='3' length='30' number_pos='0' centre_name='0'>invert i/p B</PIN>
 				<PIN pos='50.00000,40.00000' which='0' elec='4' direction='3' part='0' number='5' show='3' length='30' number_pos='0' centre_name='0'>non-invert i/p B</PIN>
-				<TEXT pos='36.00000,43.00000' direction='3' font='4' color='000000'>TL072</TEXT>
+				<TEXT pos='36.00000,43.00000' direction='3' font='3' color='000000'>TL072</TEXT>
 				<POLYGON pos='38.00000,18.00000' style='2' fill='2'>
 					<POINT pos='0.00000,0.00000' arc='0'/>
 					<POINT pos='2.00000,2.00000' arc='2'/>
@@ -1556,13 +1556,11 @@ download the executable.-->
 		<WIRE a='222.00000,78.00000' b='212.00000,78.00000'/>
 		<WIRE a='212.00000,64.00000' b='224.00000,64.00000'/>
 		<WIRE a='224.00000,64.00000' b='224.00000,66.00000'/>
-		<WIRE a='222.00000,78.00000' b='224.00000,78.00000'/>
 		<WIRE a='224.00000,78.00000' b='224.00000,73.00000'/>
 		<WIRE a='222.00000,148.00000' b='238.00000,148.00000'/>
 		<WIRE a='238.00000,148.00000' b='238.00000,143.00000'/>
 		<WIRE a='252.00000,148.00000' b='252.00000,143.00000'/>
 		<WIRE a='238.00000,136.00000' b='238.00000,122.00000'/>
-		<WIRE a='222.00000,122.00000' b='226.00000,122.00000'/>
 		<WIRE a='238.00000,122.00000' b='240.00000,122.00000'/>
 		<WIRE a='234.00000,122.00000' b='238.00000,122.00000'/>
 		<WIRE a='252.00000,136.00000' b='252.00000,122.00000'/>
@@ -1711,5 +1709,11 @@ download the executable.-->
 		<WIRE a='376.00000,122.00000' b='376.00000,136.00000'/>
 		<WIRE a='336.00000,110.00000' b='392.00000,110.00000'/>
 		<WIRE a='336.00000,116.00000' b='392.00000,116.00000'/>
+		<WIRE a='226.00000,122.00000' b='226.00000,110.00000'/>
+		<WIRE a='226.00000,110.00000' b='248.00000,110.00000'/>
+		<WIRE a='248.00000,110.00000' b='248.00000,78.00000'/>
+		<WIRE a='224.00000,78.00000' b='222.00000,78.00000'/>
+		<JUNCTION pos='224.00000,78.00000'/>
+		<WIRE a='248.00000,78.00000' b='224.00000,78.00000'/>
 	</TinyCAD>
 </TinyCADSheets>
