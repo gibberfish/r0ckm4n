@@ -593,55 +593,6 @@ download the executable.-->
 				</POLYGON>
 			</TinyCAD>
 		</SYMBOLDEF>
-		<SYMBOLDEF id='11'>
-			<NAME type='0'>MN3011</NAME>
-			<REF type='0'>IC?</REF>
-			<DESCRIPTION>MN3011</DESCRIPTION>
-			<PPP>1</PPP>
-			<FIELD>
-				<NAME>$$SPICE_PROLOG_PRIORITY</NAME>
-				<DEFAULT>5</DEFAULT>
-				<FT>000002</FT>
-				<VALUE></VALUE>
-				<POS>0.00000,0.00000</POS>
-			</FIELD>
-			<FIELD>
-				<NAME>$$SPICE_EPILOG_PRIORITY</NAME>
-				<DEFAULT>5</DEFAULT>
-				<FT>000002</FT>
-				<VALUE></VALUE>
-				<POS>0.00000,0.00000</POS>
-			</FIELD>
-			<FIELD>
-				<NAME>Package</NAME>
-				<DEFAULT>package name for PCB layout</DEFAULT>
-				<FT>000001</FT>
-				<VALUE></VALUE>
-				<POS>0.00000,0.00000</POS>
-			</FIELD>
-			<REF_POINT power='0' part='0' pos='58.00000,62.00000'/>
-			<TinyCAD>
-				<RECTANGLE a='30.00000,18.00000' b='50.00000,62.00000' style='2' fill='0'/>
-				<PIN pos='30.00000,22.00000' which='0' elec='0' direction='2' part='0' number='1' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-				<PIN pos='30.00000,28.00000' which='0' elec='0' direction='2' part='0' number='2' show='3' length='30' number_pos='0' centre_name='0'>CLOCK 2</PIN>
-				<PIN pos='30.00000,34.00000' which='0' elec='0' direction='2' part='0' number='3' show='3' length='30' number_pos='0' centre_name='0'>Vdd</PIN>
-				<PIN pos='30.00000,46.00000' which='0' elec='0' direction='2' part='0' number='4' show='3' length='30' number_pos='0' centre_name='0'>OUT 6</PIN>
-				<PIN pos='50.00000,52.00000' which='0' elec='0' direction='3' part='0' number='8' show='3' length='30' number_pos='0' centre_name='0'>OUT 2</PIN>
-				<PIN pos='50.00000,58.00000' which='0' elec='0' direction='3' part='0' number='7' show='3' length='30' number_pos='0' centre_name='0'>OUT 3</PIN>
-				<PIN pos='50.00000,34.00000' which='0' elec='0' direction='3' part='0' number='10' show='3' length='30' number_pos='0' centre_name='0'>CLOCK 1</PIN>
-				<PIN pos='50.00000,46.00000' which='0' elec='0' direction='3' part='0' number='9' show='3' length='30' number_pos='0' centre_name='0'>OUT 1</PIN>
-				<TEXT pos='35.00000,62.00000' direction='3' font='3' color='000000'>MN3011</TEXT>
-				<POLYGON pos='38.00000,18.00000' style='2' fill='2'>
-					<POINT pos='0.00000,0.00000' arc='0'/>
-					<POINT pos='2.00000,2.00000' arc='2'/>
-					<POINT pos='4.00000,0.00000' arc='1'/>
-				</POLYGON>
-				<PIN pos='30.00000,52.00000' which='0' elec='0' direction='2' part='0' number='5' show='3' length='30' number_pos='0' centre_name='0'>OUT 5</PIN>
-				<PIN pos='30.00000,58.00000' which='0' elec='0' direction='2' part='0' number='6' show='3' length='30' number_pos='0' centre_name='0'>OUT 4</PIN>
-				<PIN pos='50.00000,28.00000' which='0' elec='0' direction='3' part='0' number='11' show='3' length='30' number_pos='0' centre_name='0'>Vgg</PIN>
-				<PIN pos='50.00000,22.00000' which='0' elec='0' direction='3' part='0' number='12' show='3' length='30' number_pos='0' centre_name='0'>INPUT</PIN>
-			</TinyCAD>
-		</SYMBOLDEF>
 		<SYMBOLDEF id='12'>
 			<NAME type='0'>MN3007</NAME>
 			<REF type='0'>IC?</REF>
@@ -840,6 +791,63 @@ download the executable.-->
 			<TinyCAD>
 				<RECTANGLE a='24.00000,20.00000' b='28.00000,24.00000' style='2' fill='0'/>
 				<PIN pos='20.00000,22.00000' which='0' elec='0' direction='3' part='0' number='1' show='3' length='30' number_pos='0' centre_name='0'></PIN>
+			</TinyCAD>
+		</SYMBOLDEF>
+		<SYMBOLDEF id='18'>
+			<NAME type='0'>MN3011-stripboard</NAME>
+			<REF type='0'>U?</REF>
+			<DESCRIPTION>MN3011-stripboard</DESCRIPTION>
+			<PPP>1</PPP>
+			<FIELD>
+				<NAME>$$SPICE_PROLOG_PRIORITY</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>$$SPICE_EPILOG_PRIORITY</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Package</NAME>
+				<DEFAULT>MN3011</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='36.00000,56.00000'/>
+			<TinyCAD>
+				<PIN pos='16.00000,20.00000' which='0' elec='0' direction='3' part='0' number='1' show='3' length='20' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='16.00000,24.00000' which='0' elec='0' direction='3' part='0' number='2' show='3' length='20' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='16.00000,28.00000' which='0' elec='0' direction='3' part='0' number='3' show='3' length='20' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='16.00000,32.00000' which='0' elec='6' direction='3' part='0' number='' show='1' length='20' number_pos='0' centre_name='0'></PIN>
+				<RECTANGLE a='20.00000,16.00000' b='32.00000,56.00000' style='2' fill='0'/>
+				<POLYGON pos='25.00000,16.00000' style='2' fill='0'>
+					<POINT pos='0.00000,0.00000' arc='0'/>
+					<POINT pos='1.00000,1.00000' arc='2'/>
+				</POLYGON>
+				<POLYGON pos='26.00000,16.00000' style='2' fill='0'>
+					<POINT pos='1.00000,0.00000' arc='0'/>
+					<POINT pos='0.00000,1.00000' arc='2'/>
+				</POLYGON>
+				<PIN pos='16.00000,36.00000' which='0' elec='6' direction='3' part='0' number='' show='0' length='20' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='16.00000,40.00000' which='0' elec='6' direction='3' part='0' number='6' show='0' length='20' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='16.00000,44.00000' which='0' elec='0' direction='3' part='0' number='4' show='2' length='20' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='16.00000,48.00000' which='0' elec='0' direction='3' part='0' number='5' show='2' length='20' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='16.00000,52.00000' which='0' elec='0' direction='3' part='0' number='6' show='2' length='20' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='36.00000,52.00000' which='0' elec='0' direction='2' part='0' number='7' show='2' length='20' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='36.00000,48.00000' which='0' elec='0' direction='2' part='0' number='8' show='2' length='20' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='36.00000,44.00000' which='0' elec='0' direction='2' part='0' number='9' show='2' length='20' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='36.00000,40.00000' which='0' elec='6' direction='2' part='0' number='9' show='0' length='20' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='36.00000,36.00000' which='0' elec='6' direction='2' part='0' number='14' show='0' length='20' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='36.00000,32.00000' which='0' elec='6' direction='2' part='0' number='15' show='0' length='20' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='36.00000,28.00000' which='0' elec='0' direction='2' part='0' number='10' show='2' length='20' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='36.00000,24.00000' which='0' elec='0' direction='2' part='0' number='11' show='3' length='20' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='36.00000,20.00000' which='0' elec='0' direction='2' part='0' number='12' show='3' length='20' number_pos='0' centre_name='0'></PIN>
 			</TinyCAD>
 		</SYMBOLDEF>
 		<OPTIONS>
@@ -1305,12 +1313,12 @@ download the executable.-->
 		<WIRE a='140.00000,242.00000' b='140.00000,249.00000'/>
 		<WIRE a='140.00000,226.00000' b='140.00000,242.00000'/>
 		<WIRE a='92.00000,213.00000' b='92.00000,216.00000'/>
-		<SYMBOL id='11' pos='264.00000,182.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<SYMBOL id='18' pos='256.00000,178.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='0' description='Ref' value='IC206' show='1' pos='-23.00000,-45.60000'/>
 			<FIELD type='0' description='Name' value='MN3011' show='1' pos='-25.00000,-48.00000'/>
 			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
 			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
-			<FIELD type='1' description='Package' value='DIP18' show='0' pos='1.00000,-37.20000'/>
+			<FIELD type='1' description='Package' value='MN3011' show='0' pos='0.00000,0.00000'/>
 		</SYMBOL>
 		<SYMBOL id='12' pos='338.00000,228.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='0' description='Ref' value='IC207' show='1' pos='-21.00000,-27.60000'/>
@@ -1369,11 +1377,11 @@ download the executable.-->
 			<FIELD type='1' description='Package' value='AX3_1' show='0' pos='-10.00000,4.40000'/>
 		</SYMBOL>
 		<WIRE a='288.00000,166.00000' b='310.00000,166.00000'/>
-		<WIRE a='298.00000,172.00000' b='310.00000,172.00000'/>
-		<WIRE a='308.00000,178.00000' b='310.00000,178.00000'/>
-		<WIRE a='206.00000,172.00000' b='236.00000,172.00000'/>
-		<WIRE a='216.00000,178.00000' b='236.00000,178.00000'/>
-		<WIRE a='220.00000,166.00000' b='236.00000,166.00000'/>
+		<WIRE a='298.00000,170.00000' b='310.00000,172.00000'/>
+		<WIRE a='308.00000,174.00000' b='310.00000,178.00000'/>
+		<WIRE a='236.00000,170.00000' b='238.00000,170.00000'/>
+		<WIRE a='236.00000,174.00000' b='238.00000,174.00000'/>
+		<WIRE a='236.00000,166.00000' b='238.00000,166.00000'/>
 		<WIRE a='320.00000,178.00000' b='322.00000,178.00000'/>
 		<WIRE a='322.00000,178.00000' b='322.00000,172.00000'/>
 		<WIRE a='322.00000,172.00000' b='320.00000,172.00000'/>
@@ -1525,20 +1533,20 @@ download the executable.-->
 		<WIRE a='206.00000,120.00000' b='288.00000,120.00000'/>
 		<WIRE a='28.00000,192.00000' b='150.00000,192.00000'/>
 		<WIRE a='150.00000,192.00000' b='150.00000,128.00000'/>
-		<WIRE a='298.00000,172.00000' b='298.00000,162.00000'/>
-		<WIRE a='256.00000,172.00000' b='298.00000,172.00000'/>
+		<WIRE a='298.00000,170.00000' b='298.00000,162.00000'/>
+		<WIRE a='256.00000,170.00000' b='298.00000,170.00000'/>
 		<WIRE a='298.00000,152.00000' b='298.00000,128.00000'/>
 		<WIRE a='216.00000,128.00000' b='298.00000,128.00000'/>
-		<WIRE a='308.00000,162.00000' b='308.00000,178.00000'/>
-		<WIRE a='256.00000,178.00000' b='308.00000,178.00000'/>
+		<WIRE a='308.00000,162.00000' b='308.00000,174.00000'/>
+		<WIRE a='256.00000,174.00000' b='308.00000,174.00000'/>
 		<WIRE a='308.00000,152.00000' b='308.00000,120.00000'/>
 		<WIRE a='288.00000,120.00000' b='308.00000,120.00000'/>
-		<WIRE a='216.00000,162.00000' b='216.00000,178.00000'/>
-		<WIRE a='194.00000,178.00000' b='216.00000,178.00000'/>
+		<WIRE a='216.00000,162.00000' b='216.00000,174.00000'/>
+		<WIRE a='194.00000,178.00000' b='216.00000,174.00000'/>
 		<WIRE a='216.00000,152.00000' b='216.00000,128.00000'/>
 		<WIRE a='196.00000,128.00000' b='216.00000,128.00000'/>
-		<WIRE a='206.00000,162.00000' b='206.00000,172.00000'/>
-		<WIRE a='194.00000,172.00000' b='206.00000,172.00000'/>
+		<WIRE a='206.00000,162.00000' b='206.00000,170.00000'/>
+		<WIRE a='194.00000,172.00000' b='206.00000,170.00000'/>
 		<WIRE a='206.00000,152.00000' b='206.00000,120.00000'/>
 		<WIRE a='180.00000,120.00000' b='206.00000,120.00000'/>
 		<WIRE a='196.00000,162.00000' b='196.00000,166.00000'/>
@@ -1638,14 +1646,12 @@ download the executable.-->
 		<JUNCTION pos='174.00000,62.00000'/>
 		<WIRE a='174.00000,62.00000' b='274.00000,62.00000'/>
 		<WIRE a='274.00000,62.00000' b='274.00000,142.00000'/>
-		<WIRE a='274.00000,142.00000' b='256.00000,142.00000'/>
+		<WIRE a='256.00000,142.00000' b='254.00000,142.00000'/>
 		<JUNCTION pos='196.00000,128.00000'/>
 		<JUNCTION pos='206.00000,120.00000'/>
 		<JUNCTION pos='182.00000,172.00000'/>
 		<JUNCTION pos='182.00000,178.00000'/>
 		<JUNCTION pos='196.00000,166.00000'/>
-		<JUNCTION pos='206.00000,172.00000'/>
-		<JUNCTION pos='216.00000,178.00000'/>
 		<JUNCTION pos='216.00000,128.00000'/>
 		<JUNCTION pos='220.00000,166.00000'/>
 		<JUNCTION pos='334.00000,120.00000'/>
@@ -1674,16 +1680,14 @@ download the executable.-->
 		<WIRE a='204.00000,212.00000' b='204.00000,224.00000'/>
 		<JUNCTION pos='204.00000,212.00000'/>
 		<WIRE a='204.00000,204.00000' b='204.00000,212.00000'/>
-		<WIRE a='236.00000,154.00000' b='178.00000,154.00000'/>
+		<WIRE a='238.00000,150.00000' b='178.00000,150.00000'/>
 		<WIRE a='178.00000,258.00000' b='244.00000,258.00000'/>
 		<POWER pos='178.00000,260.00000' which='3' direction='1'>V-</POWER>
-		<WIRE a='178.00000,234.00000' b='178.00000,154.00000'/>
+		<WIRE a='178.00000,234.00000' b='178.00000,150.00000'/>
 		<JUNCTION pos='178.00000,258.00000'/>
 		<WIRE a='178.00000,260.00000' b='178.00000,258.00000'/>
 		<JUNCTION pos='288.00000,120.00000'/>
 		<JUNCTION pos='288.00000,166.00000'/>
-		<JUNCTION pos='298.00000,172.00000'/>
-		<JUNCTION pos='308.00000,178.00000'/>
 		<JUNCTION pos='308.00000,120.00000'/>
 		<JUNCTION pos='322.00000,178.00000'/>
 		<JUNCTION pos='322.00000,186.00000'/>
@@ -1691,7 +1695,7 @@ download the executable.-->
 		<JUNCTION pos='322.00000,172.00000'/>
 		<JUNCTION pos='334.00000,186.00000'/>
 		<JUNCTION pos='334.00000,158.00000'/>
-		<WIRE a='256.00000,148.00000' b='284.00000,148.00000'/>
+		<WIRE a='256.00000,146.00000' b='284.00000,146.00000'/>
 		<WIRE a='284.00000,234.00000' b='284.00000,246.00000'/>
 		<WIRE a='284.00000,246.00000' b='264.00000,246.00000'/>
 		<SYMBOL id='1' pos='244.00000,236.00000' part='0' rotate='3' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
@@ -1704,8 +1708,8 @@ download the executable.-->
 		<WIRE a='178.00000,258.00000' b='178.00000,234.00000'/>
 		<WIRE a='243.00000,234.00000' b='284.00000,234.00000'/>
 		<JUNCTION pos='284.00000,234.00000'/>
-		<WIRE a='284.00000,148.00000' b='284.00000,234.00000'/>
-		<WIRE a='236.00000,148.00000' b='162.00000,148.00000'/>
+		<WIRE a='284.00000,146.00000' b='284.00000,234.00000'/>
+		<WIRE a='236.00000,146.00000' b='162.00000,146.00000'/>
 		<WIRE a='162.00000,240.00000' b='162.00000,252.00000'/>
 		<WIRE a='162.00000,252.00000' b='244.00000,252.00000'/>
 		<SYMBOL id='3' pos='306.00000,266.00000' part='0' rotate='2' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
@@ -1738,8 +1742,8 @@ download the executable.-->
 		<JUNCTION pos='324.00000,258.00000'/>
 		<WIRE a='324.00000,258.00000' b='324.00000,264.00000'/>
 		<WIRE a='324.00000,264.00000' b='305.00000,264.00000'/>
-		<WIRE a='256.00000,154.00000' b='280.00000,154.00000'/>
-		<WIRE a='280.00000,154.00000' b='280.00000,194.00000'/>
+		<WIRE a='256.00000,150.00000' b='280.00000,150.00000'/>
+		<WIRE a='280.00000,150.00000' b='280.00000,194.00000'/>
 		<WIRE a='280.00000,194.00000' b='352.00000,194.00000'/>
 		<WIRE a='352.00000,194.00000' b='352.00000,218.00000'/>
 		<WIRE a='352.00000,218.00000' b='330.00000,218.00000'/>
@@ -1752,7 +1756,7 @@ download the executable.-->
 		<WIRE a='232.00000,264.00000' b='244.00000,264.00000'/>
 		<JUNCTION pos='162.00000,240.00000'/>
 		<WIRE a='162.00000,240.00000' b='288.00000,240.00000'/>
-		<WIRE a='162.00000,148.00000' b='162.00000,240.00000'/>
+		<WIRE a='162.00000,146.00000' b='162.00000,240.00000'/>
 		<WIRE a='288.00000,240.00000' b='288.00000,212.00000'/>
 		<WIRE a='288.00000,212.00000' b='310.00000,212.00000'/>
 		<JUNCTION pos='284.00000,234.00000'/>
@@ -1834,5 +1838,32 @@ download the executable.-->
 		</SYMBOL>
 		<WIRE a='192.00000,264.00000' b='192.00000,272.00000'/>
 		<WIRE a='222.00000,278.00000' b='222.00000,288.00000'/>
+		<JUNCTION pos='236.00000,142.00000'/>
+		<WIRE a='238.00000,142.00000' b='236.00000,142.00000'/>
+		<JUNCTION pos='236.00000,150.00000'/>
+		<JUNCTION pos='236.00000,146.00000'/>
+		<WIRE a='240.00000,146.00000' b='236.00000,146.00000'/>
+		<JUNCTION pos='236.00000,166.00000'/>
+		<WIRE a='220.00000,166.00000' b='236.00000,166.00000'/>
+		<JUNCTION pos='206.00000,170.00000'/>
+		<JUNCTION pos='236.00000,170.00000'/>
+		<WIRE a='206.00000,170.00000' b='236.00000,170.00000'/>
+		<JUNCTION pos='216.00000,174.00000'/>
+		<JUNCTION pos='236.00000,174.00000'/>
+		<WIRE a='216.00000,174.00000' b='236.00000,174.00000'/>
+		<JUNCTION pos='256.00000,142.00000'/>
+		<WIRE a='274.00000,142.00000' b='256.00000,142.00000'/>
+		<JUNCTION pos='256.00000,146.00000'/>
+		<WIRE a='254.00000,146.00000' b='256.00000,146.00000'/>
+		<JUNCTION pos='256.00000,150.00000'/>
+		<WIRE a='254.00000,150.00000' b='256.00000,150.00000'/>
+		<JUNCTION pos='298.00000,170.00000'/>
+		<JUNCTION pos='308.00000,174.00000'/>
+		<JUNCTION pos='256.00000,174.00000'/>
+		<WIRE a='254.00000,174.00000' b='256.00000,174.00000'/>
+		<JUNCTION pos='256.00000,170.00000'/>
+		<WIRE a='254.00000,170.00000' b='256.00000,170.00000'/>
+		<JUNCTION pos='256.00000,166.00000'/>
+		<WIRE a='254.00000,166.00000' b='256.00000,166.00000'/>
 	</TinyCAD>
 </TinyCADSheets>
