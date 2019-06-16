@@ -49,6 +49,16 @@ download the executable.-->
 			<CHARSET>0</CHARSET>
 			<FACENAME>Arial</FACENAME>
 		</FONT>
+		<FONT id='5'>
+			<HEIGHT>-11</HEIGHT>
+			<WIDTH>5</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
 		<STYLE id='2'>
 			<STYLE>0</STYLE>
 			<COLOR>000000</COLOR>
@@ -1713,5 +1723,6 @@ download the executable.-->
 		<JUNCTION pos='176.00000,74.00000'/>
 		<WIRE a='176.00000,74.00000' b='200.00000,74.00000'/>
 		<WIRE a='200.00000,74.00000' b='200.00000,99.00000'/>
+		<TEXT pos='160.00000,78.00000' direction='3' font='5' color='0000FF'>Original diagram had these wires connected</TEXT>
 	</TinyCAD>
 </TinyCADSheets>
